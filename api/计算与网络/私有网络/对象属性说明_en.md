@@ -129,7 +129,7 @@
 | natName | String | NAT gateway name, which can be 1-60 Chinese or English characters (uppercase and lowercase). Numbers and underscores are also supported |
 | maxConcurrent | Int | Maximum gateway concurrent connections. For example: 100, 300, 1000. (Unit: ten thousand) |
 | bandwidth | Int | Maximum public network outbound bandwidth of the gateway (Unit: Mbps). Refer to the NAT Gateway API document for details |
-| state | Int | NAT gateway status, 0: Running, 1: Unavailable, 2: Be in arrears and out of service |
+| state | Int | NAT gateway status, 0: Running, 1: Unavailable, 2: Overdue and out of service |
 | createTime | String | NAT gateway creation time. For example: 2016-05-18 15:01:46 |
 
 ## 12. ENI Related Parameters
